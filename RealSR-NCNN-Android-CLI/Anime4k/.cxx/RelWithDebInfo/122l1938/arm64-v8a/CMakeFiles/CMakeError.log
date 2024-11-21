@@ -1,0 +1,36 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Anime4k/.cxx/RelWithDebInfo/122l1938/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.22.1\bin\ninja.exe cmTC_588f9 && [1/2] Building CXX object CMakeFiles/cmTC_588f9.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_588f9.dir/src.cxx.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,-rpath=./ -msse4  -fPIE -std=c++17 -MD -MT CMakeFiles/cmTC_588f9.dir/src.cxx.o -MF CMakeFiles\cmTC_588f9.dir\src.cxx.o.d -o CMakeFiles/cmTC_588f9.dir/src.cxx.o -c D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Anime4k/.cxx/RelWithDebInfo/122l1938/arm64-v8a/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Anime4k/.cxx/RelWithDebInfo/122l1938/arm64-v8a/CMakeFiles/CMakeTmp/src.cxx:13:3: error: use of undeclared identifier 'pthread_cancel'
+  pthread_cancel(thread);
+  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

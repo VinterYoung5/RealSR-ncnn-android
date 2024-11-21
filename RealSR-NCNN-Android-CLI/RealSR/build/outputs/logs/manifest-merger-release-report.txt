@@ -1,0 +1,24 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml:2:1-3:12
+INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml:2:1-3:12
+INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml:2:1-3:12
+	package
+		INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml:2:11-69
+application
+INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml reason: application injection requested
+INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml
+	android:extractNativeLibs
+		INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml
+INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\AndroidManifest.xml

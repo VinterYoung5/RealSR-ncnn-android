@@ -1,0 +1,4 @@
+com.tumuyan.ncnn.realsr.test.Waifu2x-androidTest-0 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Waifu2x\build\generated\res\resValues\androidTest\debug
+com.tumuyan.ncnn.realsr.test.Waifu2x-mergeDebugAndroidTestResources-1 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Waifu2x\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.tumuyan.ncnn.realsr.test.Waifu2x-mergeDebugAndroidTestResources-2 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Waifu2x\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.tumuyan.ncnn.realsr.test.Waifu2x-debugAndroidTest-3 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Waifu2x\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

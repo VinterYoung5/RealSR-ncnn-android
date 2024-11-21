@@ -1,0 +1,342 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"configure_pkg_config"
+		],
+		"files" : 
+		[
+			"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 342,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 343,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 389,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 425,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 442,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 559,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 783,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 793,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 825,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/SRMD/.cxx/Debug/71382r6h/arm64-v8a/libwebp/sharpyuv/libsharpyuv.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libwebp/libsharpyuv.a"
+			],
+			"targetId" : "sharpyuv::@91ecdd311bb4d766aad5",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/webp/sharpyuv",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/sharpyuv/sharpyuv.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/sharpyuv/sharpyuv_csp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/SRMD/.cxx/Debug/71382r6h/arm64-v8a/libwebp/src/libwebpdecoder.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/SRMD/.cxx/Debug/71382r6h/arm64-v8a/libwebp/src/libwebp.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/SRMD/.cxx/Debug/71382r6h/arm64-v8a/libwebp/src/demux/libwebpdemux.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/SRMD/.cxx/Debug/71382r6h/arm64-v8a/libwebp/src/mux/libwebpmux.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libwebp/libcpufeatures-webp.a"
+			],
+			"targetId" : "cpufeatures-webp::@91ecdd311bb4d766aad5",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libwebp/libwebpdecoder.a"
+			],
+			"targetId" : "webpdecoder::@91ecdd311bb4d766aad5",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/webp",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/decode.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libwebp/libwebp.a"
+			],
+			"targetId" : "webp::@91ecdd311bb4d766aad5",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/webp",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/decode.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/encode.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libwebp/libwebpdemux.a"
+			],
+			"targetId" : "webpdemux::@91ecdd311bb4d766aad5",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/webp",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/decode.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/demux.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/mux_types.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libwebp/libwebpmux.a"
+			],
+			"targetId" : "libwebpmux::@91ecdd311bb4d766aad5",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/webp",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/mux.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/mux_types.h",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/src/webp/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "share/WebP/cmake",
+			"exportName" : "WebPTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "sharpyuv::@91ecdd311bb4d766aad5",
+					"index" : 2
+				},
+				{
+					"id" : "cpufeatures-webp::@91ecdd311bb4d766aad5",
+					"index" : 0
+				},
+				{
+					"id" : "webpdecoder::@91ecdd311bb4d766aad5",
+					"index" : 6
+				},
+				{
+					"id" : "webp::@91ecdd311bb4d766aad5",
+					"index" : 4
+				},
+				{
+					"id" : "webpdemux::@91ecdd311bb4d766aad5",
+					"index" : 7
+				},
+				{
+					"id" : "libwebpmux::@91ecdd311bb4d766aad5",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"libwebp/CMakeFiles/Export/share/WebP/cmake/WebPTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "share/WebP/cmake",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/SRMD/.cxx/Debug/71382r6h/arm64-v8a/libwebp/WebPConfigVersion.cmake",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/SRMD/.cxx/Debug/71382r6h/arm64-v8a/libwebp/WebPConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libwebp",
+		"source" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp"
+	}
+}

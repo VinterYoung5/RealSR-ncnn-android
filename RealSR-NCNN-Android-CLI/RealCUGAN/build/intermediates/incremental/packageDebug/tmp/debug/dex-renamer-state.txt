@@ -1,0 +1,4 @@
+#Thu Nov 14 13:44:19 CST 2024
+base.0=D\:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\RealCUGAN\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

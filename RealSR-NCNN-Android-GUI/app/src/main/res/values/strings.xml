@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">RealSR BigImage</string>
+    <string name="default_log">\n
+        This is a simple Android application that uses Realsr-NCNN, SRMD-NCNN, Real-CUGAN-NCNN, Real-ESRGAN, Waifu2x-NCNN, Anime4kCPP and ImageMagick.
+
+        \nThe application does not collect any private information from your device.
+        \nAdd more models: https://github.com/tumuyan/RealSR-NCNN-Android#add-more-models-to-realsr-ncnn-android-gui
+        \nGithub: https://github.com/tumuyan/RealSR-NCNN-Android
+        \nSponsor: https://afdian.net/a/tumuyan (No additional functionality will be provided)
+        \n
+        \nYou can run these programs:
+        \n1.Super resolution -i input.png -o output.png
+        \n./realsr-ncnn -i input.png -o output.png
+        \n./srmd-ncnn -i input.png -o output.png
+        \n./realcugan-ncnn  -i input.png -o output.png
+
+
+        \n\n2.Classical interpolation
+        \n./resize-ncnn -i input.png -o output.png [-m mode] [-n] [-s scale]\n
+        -m mode（nearest/bilinear/bicubic/avir/avir-lancir）\n
+        -n not use ncnn for nearest和bilinear\n
+        -s scale(default=4), could be float without -n\n
+
+        \n\n3.ImageMagick
+        \n./magick input.png -filter filter -resize widthxheight output.png
+        \n./magick input.png -filter filter -resize n% output.png
+        \nfilter could be Box Cubic Hamming Jinc Lanczos Lagrange Mitchell Sinc, etc，intpu ./magick -list filter and see more filter, or visit https://legacy.imagemagick.org/Usage/filter
+
+        \n\n4、Anime4K https://github.com/TianZerL/Anime4KCPP
+        \nIt contains Anime4K 0.9 (not the latest) and ACNet.
+        \nPlease visit the wiki to get more information. https://github.com/TianZerL/Anime4KCPP/wiki/CLI
+
+        \n\n5.Show image/info
+        \n in
+        \n out
+        \n show
+        \n help
+
+        \n\n6.Shell command
+        \nls head cp rm etc.
+     \n\n
+        Tips.
+\n1. Pleas visit https://github.com/tumuyan/RealSR-NCNN-Android#how-to-use-realsr-ncnn-android-gui for more information.
+\n2. The App supports waifu2x, but does not include the model and preset commands.
+If you need to use waifu2x, please download and unzip to get the model and add waifu2x commands in the extra command, such as ./waifu2x-ncnn -i input.png -o output.png -m /sdcard/10086/models-upconv_7_photo (/sdcard/10086/models-upconv_7_photo is the path where the model you placed)
+\n3. You can download other esrgan models and use them yourself.
+https://upscale.wiki/wiki/Model_Database There are many models here, download the .pth models and convert it to ncnn models in Windows. The conversion steps are as follows: download cupscal https://github.com/n00mkrad/cupscale/releases , unzip cupscal, open CupscaleData\bin\pth2ncnn, use pth2ncnn.exe to convert pth files to ncnn file. Rename the models folder with a suffix of models-Real- or models-ESRGAN-, copy the folder to your phone, add add extra commands in the settings Activity and save. Command just like ./realsr-ncnn -i input.png -o output.png -m /sdcard/10086/models-Real-4x-UltraSharp
+(/sdcard/10086/models-Real-4x-UltraSharp is the path to the folder where you save your models)
+\n4. If you get a black result and "vkQueueSubmit failed -4" in log output, please config the tile-size parameter. The default tile-size parameter is 0, the tile-szie will be automatically adjusted according to the remaining memory on the device, up to a maximum of 200-400 depending on the model you selected. User could apply a integer >= 32, for devices with this problem, you can usually set the value 32 to 100.
+    </string>
+    <string name="input_command">Input console command, for example: ./realsr-ncnn -i input.png -o output.png</string>
+    <string name="open">Open</string>
+    <string name="run">Run</string>
+    <string name="save">Save</string>
+    <string name="setting">Config</string>
+    <string name="done">Done</string>
+    <string name="busy">Busy</string>
+    <string name="default_select_command">Default command in the command list</string>
+    <string name="tile_size">Tile size for default command</string>
+    <string name="default_command">Preset command in the TextEditor</string>
+    <string name="save_setting">Save Setting</string>
+    <string name="lr">▲ input image</string>
+    <string name="hr">▲ output image</string>
+    <string name="show">Show image</string>
+    <string name="save_succeed">Save Succeed!</string>
+    <string name="save_fail">Save Fail!</string>
+    <string name="threadCount">Load/Proc/Save thread count for default command (default=1:2:2), actually useless</string>
+    <string name="reset">Reset default parameters</string>
+    <string name="reset_low">Reset compatible parameters</string>
+    <string name="thread_count_err">not number:number:number</string>
+    <string name="keep_screen">Keep screen on when it works</string>
+    <string name="extra_command">Extra command in the command list</string>
+    <string name="partners_for_preset_command">Partners for preset super-resolution command</string>
+    <string name="custom_command">Custom command</string>
+    <string name="use_cpu">Try to use CPU</string>
+    <string name="save_format">Save format</string>
+    <string name="general">General</string>
+    <string name="output_not_exits">Error: there is no file to export</string>
+    <string name="image_not_exists">Image not exists</string>
+    <string name="preprocess_to_png">Preprocess input image (not webp/png/jpg/bmp) to png</string>
+    <string name="extra_path">Path for custom models (RealSR/ESRGAN/Waifu2x)</string>
+    <string name="path_not_exist">Not exist this directory</string>
+    <string name="path_not_dir">The path is a file, not a directory</string>
+    <string name="menu_out2in" translatable="false"><![CDATA[Output -> Input]]></string>
+    <string name="menu_nearest4">Nearest 400%</string>
+    <string name="menu_de_nearest">De Nearest</string>
+    <string name="menu_magick4">Magick 25%</string>
+    <string name="menu_magick3">Magick 33.3%</string>
+    <string name="menu_magick2">Magick 50%</string>
+    <string name="menu_avir2">Avir 50%</string>
+    <string name="menu_in">Show input image</string>
+    <string name="menu_out">Show output image</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_share">Share output image</string>
+    <string name="share_is_null">No image was shared</string>
+    <string name="auto_save">Save image to gallery after processing</string>
+    <string name="show_serarch_view">Show command input area</string>
+    <string name="save_name">File name for output one image</string>
+    <string name="save_name2">File name for output images</string>
+    <string name="save_path">Path for save images</string>
+    <string name="download_models">Download models</string>
+    <string name="start">Start</string>
+    <string name="image_is_directory">Image input is directory</string>
+    <string name="output_is_dir">Skip: don\'t need export</string>
+    <string name="input_file_size">Input %d files</string>
+    <string name="orientation">Screen orientaion</string>
+    <string name="error">Error</string>
+    <string name="use_notification">Send notification</string>
+    <string name="menu_bench_mark">Bench Mark</string>
+    <string name="model">Device Model</string>
+    <string name="system_version">Android Version</string>
+    <string name="cpu_model">CPU</string>
+    <string name="ram_size">RAM</string>
+    <string name="temperature">Temperature</string>
+    <string name="magick_filters">Magick filters</string>
+    <string name="classical_interpolation">Classical interpolation</string>
+    <string name="interpolation">Interpolation</string>
+    <string name="default_classical_filters" translatable="false">nearest bilinear bicubic avir avir-lancir</string>
+    <string name="default_magick_filters" translatable="false">Hermite Hermite Hamming anczos LanczosRadius Lanczos2 LanczosSharp Lanczos2Sharp Lagrange Mitchell Blackman</string>
+    <string name="menu_reset_cache">Reset Cache</string>
+    <string-array name="format">
+        <item>PNG</item>
+        <item>WebP</item>
+        <item>GIF</item>
+        <item>HEIF</item>
+        <item>JPEG 100%</item>
+        <item>JPEG 98%</item>
+        <item>JPEG 95%</item>
+        <item>JPEG 90%</item>
+        <item>JPEG 85%</item>
+        <item>JPEG 80%</item>
+        <item>JPEG 75%</item>
+        <item>JPEG 60%</item>
+    </string-array>
+    <string-array name="name">
+        <item>Command-Time</item>
+        <item>Input File Name-Command-Time</item>
+        <item>Input File Name-Command</item>
+        <item>Input File Name-Time</item>
+        <item>Input File Name</item>
+    </string-array>
+    <string-array name="name2">
+        <item>Input File Name-Input Time</item>
+        <item>Input File Name-Index</item>
+        <item>Input Time-Index</item>
+        <item>Input Time-Input File Name</item>
+    </string-array>
+    <string-array name="style_array">
+        <item>real-esrgan-anime-x4</item>
+        <item>real-esrgan-x4</item>
+        <item>realsr-general-v3</item>
+        <item>real-esrganv3-anime-x2</item>
+        <item>real-esrganv3-anime-x3</item>
+        <item>real-esrganv3-anime-x4</item>
+        <item>real-esrganv2-anime-x2</item>
+        <item>real-esrganv2-anime-x4 (fast but oversharpening)</item>
+        <item>real-esrgan-Nomos8kSC-x4</item>
+        <item>real-esrgan-SourceBook-x2</item>
+        <item>real-cugan-x2-no-denoise</item>
+        <item>real-cugan-x2-conservative</item>
+        <item>real-cugan-x2-noise0</item>
+        <item>real-cugan-x2-noise1</item>
+        <item>real-cugan-x2-noise2</item>
+        <item>real-cugan-x2-noise3</item>
+        <item>real-cugan-x4-conservative</item>
+        <item>real-cugan-x4-noise0</item>
+        <item>real-cugan-x4-noise3</item>
+        <item>real-cugan-pro-x2-conservative</item>
+        <item>real-cugan-pro-x2-noise0</item>
+        <item>real-cugan-pro-x2-noise3</item>
+        <item>real-cugan-pro-x3-conservative</item>
+        <item>real-cugan-pro-x3-noise0</item>
+        <item>real-cugan-pro-x3-noise3</item>
+        <item>Anime4k-x2</item>
+        <item>Anime4k-x2-pre-gaussian_blur-bilateral</item>
+        <item>Anime4k-x2-post-gaussian_blur-bilateral</item>
+        <item>Anime4k-x2-ACNet</item>
+        <item>Anime4k-x2-ACNet-HDN</item>
+        <item>Anime4k-x4</item>
+        <item>Anime4k-x4-pre-gaussian_blur_weak-bilateral</item>
+        <item>Anime4k-x4-post-gaussian_blur_weak-bilateral</item>
+        <item>Anime4k-x4-ACNet</item>
+        <item>Anime4k-x4-ACNet-HDN</item>
+    </string-array>
+    <string-array name="oriental_item">
+        <item>Default</item>
+        <item>Auto</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <string-array name="notify_item">
+        <item>No</item>
+        <item>Notify</item>
+        <item>Notify when finish</item>
+    </string-array>
+</resources>

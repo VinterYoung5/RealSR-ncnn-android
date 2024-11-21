@@ -1,0 +1,4 @@
+#Thu Nov 14 14:33:18 CST 2024
+base.0=D\:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

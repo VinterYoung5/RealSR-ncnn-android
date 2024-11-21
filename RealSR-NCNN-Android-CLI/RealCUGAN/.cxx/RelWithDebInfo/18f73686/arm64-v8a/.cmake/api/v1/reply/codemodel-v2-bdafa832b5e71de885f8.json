@@ -1,0 +1,203 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "libwebp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libwebp-Debug-fd2d5b85f09bbf32a109.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "realcugan-ncnn",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "WebP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "cpufeatures-webp::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-cpufeatures-webp-Debug-00394be72acd23464227.json",
+					"name" : "cpufeatures-webp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libwebpmux::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-libwebpmux-Debug-7c3ba827e248eded3264.json",
+					"name" : "libwebpmux",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realcugan-ncnn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realcugan-ncnn-Debug-fac7b9fd03a12cac9bf7.json",
+					"name" : "realcugan-ncnn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sharpyuv::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-sharpyuv-Debug-956593caac07c20bc9ce.json",
+					"name" : "sharpyuv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webp::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webp-Debug-f4e50e6d10eafa5e18ba.json",
+					"name" : "webp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdecode-Debug-e68535404c59a4b7e695.json",
+					"name" : "webpdecode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdecoder::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdecoder-Debug-fe5fb3c17431e6ea9180.json",
+					"name" : "webpdecoder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdemux::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdemux-Debug-f2b2c899c1f6000fb0d5.json",
+					"name" : "webpdemux",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdsp::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdsp-Debug-a9f54c1a5a3f97ea3148.json",
+					"name" : "webpdsp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdspdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdspdecode-Debug-5b1987a3461b2d0c385e.json",
+					"name" : "webpdspdecode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpencode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpencode-Debug-9f7dbf47630dbad35124.json",
+					"name" : "webpencode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webputils::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webputils-Debug-7741e99f447ba4bc71ec.json",
+					"name" : "webputils",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webputilsdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webputilsdecode-Debug-35b526c8d282d60e55ff.json",
+					"name" : "webputilsdecode",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/RealCUGAN/.cxx/RelWithDebInfo/18f73686/arm64-v8a",
+		"source" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/RealCUGAN/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

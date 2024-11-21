@@ -1,0 +1,4 @@
+com.tumuyan.ncnn.realsr.test.RealSR-androidTest-0 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealSR\build\generated\res\resValues\androidTest\debug
+com.tumuyan.ncnn.realsr.test.RealSR-mergeDebugAndroidTestResources-1 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealSR\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.tumuyan.ncnn.realsr.test.RealSR-mergeDebugAndroidTestResources-2 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealSR\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.tumuyan.ncnn.realsr.test.RealSR-debugAndroidTest-3 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealSR\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

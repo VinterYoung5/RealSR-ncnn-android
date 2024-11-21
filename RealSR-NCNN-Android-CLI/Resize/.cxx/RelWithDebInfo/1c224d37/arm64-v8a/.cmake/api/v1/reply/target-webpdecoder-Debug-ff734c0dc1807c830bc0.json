@@ -1,0 +1,589 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libwebp/libwebpdecoder.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 371,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 783,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 377,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 358,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "cpufeatures-webp::@91ecdd311bb4d766aad5"
+		},
+		{
+			"id" : "webpdspdecode::@91ecdd311bb4d766aad5"
+		},
+		{
+			"id" : "webpdecode::@91ecdd311bb4d766aad5"
+		},
+		{
+			"id" : "webputilsdecode::@91ecdd311bb4d766aad5"
+		}
+	],
+	"id" : "webpdecoder::@91ecdd311bb4d766aad5",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/resize-ncnn"
+		}
+	},
+	"name" : "webpdecoder",
+	"nameOnDisk" : "libwebpdecoder.a",
+	"paths" : 
+	{
+		"build" : "libwebp",
+		"source" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/alpha_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/buffer_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/frame_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/idec_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/io_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/quant_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/tree_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/vp8_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/vp8l_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdecode.dir/src/dec/webp_dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/alpha_processing.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/cpu.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_clip_tables.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/filters.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/rescaler.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/alpha_processing_sse41.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_sse41.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless_sse41.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling_sse41.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv_sse41.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/alpha_processing_sse2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_sse2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/filters_sse2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless_sse2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/rescaler_sse2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling_sse2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv_sse2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/alpha_processing_neon.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_neon.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/filters_neon.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless_neon.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/rescaler_neon.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling_neon.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv_neon.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_msa.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/filters_msa.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless_msa.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/rescaler_msa.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling_msa.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_mips32.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/rescaler_mips32.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv_mips32.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/alpha_processing_mips_dsp_r2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_mips_dsp_r2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/filters_mips_dsp_r2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless_mips_dsp_r2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/rescaler_mips_dsp_r2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling_mips_dsp_r2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv_mips_dsp_r2.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/bit_reader_utils.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/color_cache_utils.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/filters_utils.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/huffman_utils.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/palette.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/quant_levels_dec_utils.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/rescaler_utils.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/random_utils.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/thread_utils.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/.cxx/RelWithDebInfo/1c224d37/arm64-v8a/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/utils.c.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

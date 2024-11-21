@@ -1,0 +1,480 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_d6c30 && [1/2] Building C object CMakeFiles/cmTC_d6c30.dir/src.c.o
+src.c:13:3: warning: implicit declaration of function 'pthread_cancel' is invalid in C99 [-Wimplicit-function-declaration]
+  pthread_cancel(thread);
+  ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d6c30
+FAILED: cmTC_d6c30 
+cmd.exe /C "cd . && D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCMAKE_HAVE_LIBC_PTHREAD -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments CMakeFiles/cmTC_d6c30.dir/src.c.o -o cmTC_d6c30  -latomic -lm && cd ."
+ld: error: undefined symbol: pthread_cancel
+>>> referenced by src.c:13
+>>>               CMakeFiles/cmTC_d6c30.dir/src.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_0335a && [1/2] Building C object CMakeFiles/cmTC_0335a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0335a
+FAILED: cmTC_0335a 
+cmd.exe /C "cd . && D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=pthread_create -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments CMakeFiles/cmTC_0335a.dir/CheckFunctionExists.c.o -o cmTC_0335a  -lpthreads  -latomic -lm && cd ."
+ld: error: unable to find library -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_d33a7 && [1/2] Building C object CMakeFiles/cmTC_d33a7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d33a7
+FAILED: cmTC_d33a7 
+cmd.exe /C "cd . && D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=pthread_create -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments CMakeFiles/cmTC_d33a7.dir/CheckFunctionExists.c.o -o cmTC_d33a7  -lpthread  -latomic -lm && cd ."
+ld: error: unable to find library -lpthread
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_bfc75 && [1/2] Building C object CMakeFiles/cmTC_bfc75.dir/HAVE_GLUT_GLUT_H.c.o
+FAILED: CMakeFiles/cmTC_bfc75.dir/HAVE_GLUT_GLUT_H.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread  -fPIE -MD -MT CMakeFiles/cmTC_bfc75.dir/HAVE_GLUT_GLUT_H.c.o -MF CMakeFiles\cmTC_bfc75.dir\HAVE_GLUT_GLUT_H.c.o.d -o CMakeFiles/cmTC_bfc75.dir/HAVE_GLUT_GLUT_H.c.o -c D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c:2:10: fatal error: 'GLUT/glut.h' file not found
+#include <GLUT/glut.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glut.h exist failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_fca41 && [1/2] Building C object CMakeFiles/cmTC_fca41.dir/HAVE_GL_GLUT_H.c.o
+FAILED: CMakeFiles/cmTC_fca41.dir/HAVE_GL_GLUT_H.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread  -fPIE -MD -MT CMakeFiles/cmTC_fca41.dir/HAVE_GL_GLUT_H.c.o -MF CMakeFiles\cmTC_fca41.dir\HAVE_GL_GLUT_H.c.o.d -o CMakeFiles/cmTC_fca41.dir/HAVE_GL_GLUT_H.c.o -c D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_GL_GLUT_H.c
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_GL_GLUT_H.c:2:10: fatal error: 'GL/glut.h' file not found
+#include <GL/glut.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <GL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_74e88 && [1/2] Building C object CMakeFiles/cmTC_74e88.dir/HAVE_OPENGL_GLUT_H.c.o
+FAILED: CMakeFiles/cmTC_74e88.dir/HAVE_OPENGL_GLUT_H.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread  -fPIE -MD -MT CMakeFiles/cmTC_74e88.dir/HAVE_OPENGL_GLUT_H.c.o -MF CMakeFiles\cmTC_74e88.dir\HAVE_OPENGL_GLUT_H.c.o.d -o CMakeFiles/cmTC_74e88.dir/HAVE_OPENGL_GLUT_H.c.o -c D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c:2:10: fatal error: 'OpenGL/glut.h' file not found
+#include <OpenGL/glut.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files shlwapi.h exist failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_ccfc8 && [1/2] Building C object CMakeFiles/cmTC_ccfc8.dir/HAVE_SHLWAPI_H.c.o
+FAILED: CMakeFiles/cmTC_ccfc8.dir/HAVE_SHLWAPI_H.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread  -fPIE -MD -MT CMakeFiles/cmTC_ccfc8.dir/HAVE_SHLWAPI_H.c.o -MF CMakeFiles\cmTC_ccfc8.dir\HAVE_SHLWAPI_H.c.o.d -o CMakeFiles/cmTC_ccfc8.dir/HAVE_SHLWAPI_H.c.o -c D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_SHLWAPI_H.c
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_SHLWAPI_H.c:2:10: fatal error: 'shlwapi.h' file not found
+#include <shlwapi.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <shlwapi.h>
+
+
+int main(void){return 0;}
+
+Determining if files wincodec.h exist failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_c3249 && [1/2] Building C object CMakeFiles/cmTC_c3249.dir/HAVE_WINCODEC_H.c.o
+FAILED: CMakeFiles/cmTC_c3249.dir/HAVE_WINCODEC_H.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread  -fPIE -MD -MT CMakeFiles/cmTC_c3249.dir/HAVE_WINCODEC_H.c.o -MF CMakeFiles\cmTC_c3249.dir\HAVE_WINCODEC_H.c.o.d -o CMakeFiles/cmTC_c3249.dir/HAVE_WINCODEC_H.c.o -c D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_WINCODEC_H.c
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_WINCODEC_H.c:2:10: fatal error: 'wincodec.h' file not found
+#include <wincodec.h>
+         ^~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <wincodec.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_2d922 && [1/2] Building C object CMakeFiles/cmTC_2d922.dir/HAVE_WINDOWS_H.c.o
+FAILED: CMakeFiles/cmTC_2d922.dir/HAVE_WINDOWS_H.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread  -fPIE -MD -MT CMakeFiles/cmTC_2d922.dir/HAVE_WINDOWS_H.c.o -MF CMakeFiles\cmTC_2d922.dir\HAVE_WINDOWS_H.c.o.d -o CMakeFiles/cmTC_2d922.dir/HAVE_WINDOWS_H.c.o -c D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_56a90 && [1/2] Building C object CMakeFiles/cmTC_56a90.dir/src.c.o
+FAILED: CMakeFiles/cmTC_56a90.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_SSE41 -fPIE -MD -MT CMakeFiles/cmTC_56a90.dir/src.c.o -MF CMakeFiles\cmTC_56a90.dir\src.c.o.d -o CMakeFiles/cmTC_56a90.dir/src.c.o -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_49263 && [1/2] Building C object CMakeFiles/cmTC_49263.dir/src.c.o
+FAILED: CMakeFiles/cmTC_49263.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_SSE41 -msse4.1 -fPIE -MD -MT CMakeFiles/cmTC_49263.dir/src.c.o -MF CMakeFiles\cmTC_49263.dir\src.c.o.d -o CMakeFiles/cmTC_49263.dir/src.c.o -c src.c
+clang: warning: argument unused during compilation: '-msse4.1' [-Wunused-command-line-argument]
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test FLAG_-mno-sse4.1 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_51f17 && [1/2] Building C object CMakeFiles/cmTC_51f17.dir/src.c.o
+clang: warning: argument unused during compilation: '-msse4.1' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mno-sse4.1' [-Wunused-command-line-argument]
+In file included from <built-in>:385:
+<command line>:3:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define FLAG_-mno-sse4.1 1
+             ^
+1 warning generated.
+[2/2] Linking C executable cmTC_51f17
+
+
+Source file was:
+int main(void) {return 0;}
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_217ac && [1/2] Building C object CMakeFiles/cmTC_217ac.dir/src.c.o
+FAILED: CMakeFiles/cmTC_217ac.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_SSE2 -fPIE -MD -MT CMakeFiles/cmTC_217ac.dir/src.c.o -MF CMakeFiles\cmTC_217ac.dir\src.c.o.d -o CMakeFiles/cmTC_217ac.dir/src.c.o -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_21313 && [1/2] Building C object CMakeFiles/cmTC_21313.dir/src.c.o
+FAILED: CMakeFiles/cmTC_21313.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_SSE2 -msse2 -fPIE -MD -MT CMakeFiles/cmTC_21313.dir/src.c.o -MF CMakeFiles\cmTC_21313.dir\src.c.o.d -o CMakeFiles/cmTC_21313.dir/src.c.o -c src.c
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test FLAG_-mno-sse2 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_f3c0a && [1/2] Building C object CMakeFiles/cmTC_f3c0a.dir/src.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mno-sse2' [-Wunused-command-line-argument]
+In file included from <built-in>:385:
+<command line>:3:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define FLAG_-mno-sse2 1
+             ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f3c0a
+
+
+Source file was:
+int main(void) {return 0;}
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_e94dc && [1/2] Building C object CMakeFiles/cmTC_e94dc.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e94dc.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MIPS32 -fPIE -MD -MT CMakeFiles/cmTC_e94dc.dir/src.c.o -MF CMakeFiles\cmTC_e94dc.dir\src.c.o.d -o CMakeFiles/cmTC_e94dc.dir/src.c.o -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_a290d && [1/2] Building C object CMakeFiles/cmTC_a290d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a290d.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MIPS32 -mips32 -fPIE -MD -MT CMakeFiles/cmTC_a290d.dir/src.c.o -MF CMakeFiles\cmTC_a290d.dir\src.c.o.d -o CMakeFiles/cmTC_a290d.dir/src.c.o -c src.c
+clang: error: the clang compiler does not support '-mips32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_f0a91 && [1/2] Building C object CMakeFiles/cmTC_f0a91.dir/src.c.o
+FAILED: CMakeFiles/cmTC_f0a91.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -fPIE -MD -MT CMakeFiles/cmTC_f0a91.dir/src.c.o -MF CMakeFiles\cmTC_f0a91.dir\src.c.o.d -o CMakeFiles/cmTC_f0a91.dir/src.c.o -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_44db6 && [1/2] Building C object CMakeFiles/cmTC_44db6.dir/src.c.o
+FAILED: CMakeFiles/cmTC_44db6.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -mdspr2 -fPIE -MD -MT CMakeFiles/cmTC_44db6.dir/src.c.o -MF CMakeFiles\cmTC_44db6.dir\src.c.o.d -o CMakeFiles/cmTC_44db6.dir/src.c.o -c src.c
+clang: warning: argument unused during compilation: '-mdspr2' [-Wunused-command-line-argument]
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test FLAG_-mno-dspr2 failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_d5264 && [1/2] Building C object CMakeFiles/cmTC_d5264.dir/src.c.o
+clang: warning: argument unused during compilation: '-mdspr2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mno-dspr2' [-Wunused-command-line-argument]
+In file included from <built-in>:385:
+<command line>:3:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define FLAG_-mno-dspr2 1
+             ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d5264
+
+
+Source file was:
+int main(void) {return 0;}
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_3b114 && [1/2] Building C object CMakeFiles/cmTC_3b114.dir/src.c.o
+FAILED: CMakeFiles/cmTC_3b114.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MSA -fPIE -MD -MT CMakeFiles/cmTC_3b114.dir/src.c.o -MF CMakeFiles\cmTC_3b114.dir\src.c.o.d -o CMakeFiles/cmTC_3b114.dir/src.c.o -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_dde32 && [1/2] Building C object CMakeFiles/cmTC_dde32.dir/src.c.o
+FAILED: CMakeFiles/cmTC_dde32.dir/src.c.o 
+D:\vinter\8.android_studio\sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android24 --sysroot=D:/vinter/8.android_studio/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MSA -mmsa -fPIE -MD -MT CMakeFiles/cmTC_dde32.dir/src.c.o -MF CMakeFiles\cmTC_dde32.dir\src.c.o.d -o CMakeFiles/cmTC_dde32.dir/src.c.o -c src.c
+clang: warning: argument unused during compilation: '-mmsa' [-Wunused-command-line-argument]
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test FLAG_-mno-msa failed with the following output:
+Change Dir: D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\vinter\8.android_studio\sdk\cmake\3.18.1\bin\ninja.exe cmTC_e2e67 && [1/2] Building C object CMakeFiles/cmTC_e2e67.dir/src.c.o
+clang: warning: argument unused during compilation: '-mmsa' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mno-msa' [-Wunused-command-line-argument]
+In file included from <built-in>:385:
+<command line>:3:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define FLAG_-mno-msa 1
+             ^
+1 warning generated.
+[2/2] Linking C executable cmTC_e2e67
+
+
+Source file was:
+int main(void) {return 0;}

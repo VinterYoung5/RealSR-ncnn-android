@@ -1,0 +1,96 @@
+{
+  "buildFiles": [
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\3rdparty\\libwebp\\CMakeLists.txt",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\vinter\\8.android_studio\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\.cxx\\Debug\\71382r6h\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\vinter\\8.android_studio\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\.cxx\\Debug\\71382r6h\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "libwebpmux::@91ecdd311bb4d766aad5": {
+      "artifactName": "libwebpmux",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\.cxx\\Debug\\71382r6h\\arm64-v8a\\libwebp\\libwebpmux.a",
+      "runtimeFiles": []
+    },
+    "webpdecoder::@91ecdd311bb4d766aad5": {
+      "artifactName": "webpdecoder",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\.cxx\\Debug\\71382r6h\\arm64-v8a\\libwebp\\libwebpdecoder.a",
+      "runtimeFiles": []
+    },
+    "webpdsp::@91ecdd311bb4d766aad5": {
+      "artifactName": "webpdsp",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "webpdspdecode::@91ecdd311bb4d766aad5": {
+      "artifactName": "webpdspdecode",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "webputilsdecode::@91ecdd311bb4d766aad5": {
+      "artifactName": "webputilsdecode",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "srmd-ncnn::@6890427a1f51a3e7e1df": {
+      "artifactName": "srmd-ncnn",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\build\\intermediates\\cxx\\Debug\\71382r6h\\obj\\arm64-v8a\\srmd-ncnn",
+      "runtimeFiles": [
+        "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\3rdparty\\ncnn-android-vulkan-shared\\arm64-v8a\\lib\\libncnn.so"
+      ]
+    },
+    "webpencode::@91ecdd311bb4d766aad5": {
+      "artifactName": "webpencode",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "webpdecode::@91ecdd311bb4d766aad5": {
+      "artifactName": "webpdecode",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "webputils::@91ecdd311bb4d766aad5": {
+      "artifactName": "webputils",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "cpufeatures-webp::@91ecdd311bb4d766aad5": {
+      "artifactName": "cpufeatures-webp",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\.cxx\\Debug\\71382r6h\\arm64-v8a\\libwebp\\libcpufeatures-webp.a",
+      "runtimeFiles": []
+    },
+    "webpdemux::@91ecdd311bb4d766aad5": {
+      "artifactName": "webpdemux",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\.cxx\\Debug\\71382r6h\\arm64-v8a\\libwebp\\libwebpdemux.a",
+      "runtimeFiles": []
+    },
+    "sharpyuv::@91ecdd311bb4d766aad5": {
+      "artifactName": "sharpyuv",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\.cxx\\Debug\\71382r6h\\arm64-v8a\\libwebp\\libsharpyuv.a",
+      "runtimeFiles": []
+    },
+    "webp::@91ecdd311bb4d766aad5": {
+      "artifactName": "webp",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\SRMD\\.cxx\\Debug\\71382r6h\\arm64-v8a\\libwebp\\libwebp.a",
+      "runtimeFiles": []
+    }
+  }
+}

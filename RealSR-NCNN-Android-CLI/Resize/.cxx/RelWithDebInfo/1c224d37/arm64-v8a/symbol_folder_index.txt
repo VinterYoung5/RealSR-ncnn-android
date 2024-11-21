@@ -1,0 +1,1 @@
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\build\intermediates\cxx\RelWithDebInfo\1c224d37\obj\arm64-v8a

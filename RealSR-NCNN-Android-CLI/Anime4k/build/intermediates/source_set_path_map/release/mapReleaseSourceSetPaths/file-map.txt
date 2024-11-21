@@ -1,0 +1,7 @@
+com.tumuyan.ncnn.realsr.Anime4k-pngs-0 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\build\generated\res\pngs\release
+com.tumuyan.ncnn.realsr.Anime4k-resValues-1 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\build\generated\res\resValues\release
+com.tumuyan.ncnn.realsr.Anime4k-mergeReleaseResources-2 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.tumuyan.ncnn.realsr.Anime4k-mergeReleaseResources-3 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.tumuyan.ncnn.realsr.Anime4k-release-4 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\build\intermediates\merged_res\release\mergeReleaseResources
+com.tumuyan.ncnn.realsr.Anime4k-main-5 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\res
+com.tumuyan.ncnn.realsr.Anime4k-release-6 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\release\res

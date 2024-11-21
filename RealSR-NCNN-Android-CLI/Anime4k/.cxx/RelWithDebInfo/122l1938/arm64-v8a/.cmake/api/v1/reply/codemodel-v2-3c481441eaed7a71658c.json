@@ -1,0 +1,152 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "AviSynthPlus",
+					"jsonFile" : "directory-AviSynthPlus-RelWithDebInfo-d7ef48800b2ce83babe1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "AviSynthPlus"
+				},
+				{
+					"build" : "CLI",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CLI-RelWithDebInfo-0c6fe4b41a64e79e16f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "CLI",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "CWrapper",
+					"jsonFile" : "directory-CWrapper-RelWithDebInfo-295dfd81e6fed791152d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CWrapper"
+				},
+				{
+					"build" : "core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core-RelWithDebInfo-04e1f53fbb0c2aeb30d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"name" : "Anime4KCPP"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Anime4k",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Anime4KCPPCore",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Anime4KCPPCore::@57760688d1f824db5d9c",
+					"jsonFile" : "target-Anime4KCPPCore-RelWithDebInfo-e546285820f19f2b6bcb.json",
+					"name" : "Anime4KCPPCore",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Anime4k::@eb403ffd800e68c9a938",
+					"jsonFile" : "target-Anime4k-RelWithDebInfo-305ea2149de641684748.json",
+					"name" : "Anime4k",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Anime4k/.cxx/RelWithDebInfo/122l1938/arm64-v8a",
+		"source" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Anime4k/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

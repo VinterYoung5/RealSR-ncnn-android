@@ -1,0 +1,7 @@
+com.tumuyan.ncnn.realsr.RealCUGAN-pngs-0 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealCUGAN\build\generated\res\pngs\release
+com.tumuyan.ncnn.realsr.RealCUGAN-resValues-1 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealCUGAN\build\generated\res\resValues\release
+com.tumuyan.ncnn.realsr.RealCUGAN-mergeReleaseResources-2 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealCUGAN\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.tumuyan.ncnn.realsr.RealCUGAN-mergeReleaseResources-3 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealCUGAN\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.tumuyan.ncnn.realsr.RealCUGAN-release-4 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealCUGAN\build\intermediates\merged_res\release\mergeReleaseResources
+com.tumuyan.ncnn.realsr.RealCUGAN-main-5 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealCUGAN\src\main\res
+com.tumuyan.ncnn.realsr.RealCUGAN-release-6 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\RealCUGAN\src\release\res

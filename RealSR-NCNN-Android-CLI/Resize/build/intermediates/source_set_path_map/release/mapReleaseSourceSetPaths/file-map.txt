@@ -1,0 +1,7 @@
+com.tumuyan.ncnn.realsr.Resize-pngs-0 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\build\generated\res\pngs\release
+com.tumuyan.ncnn.realsr.Resize-resValues-1 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\build\generated\res\resValues\release
+com.tumuyan.ncnn.realsr.Resize-mergeReleaseResources-2 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.tumuyan.ncnn.realsr.Resize-mergeReleaseResources-3 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.tumuyan.ncnn.realsr.Resize-release-4 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\build\intermediates\merged_res\release\mergeReleaseResources
+com.tumuyan.ncnn.realsr.Resize-main-5 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\src\main\res
+com.tumuyan.ncnn.realsr.Resize-release-6 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\src\release\res

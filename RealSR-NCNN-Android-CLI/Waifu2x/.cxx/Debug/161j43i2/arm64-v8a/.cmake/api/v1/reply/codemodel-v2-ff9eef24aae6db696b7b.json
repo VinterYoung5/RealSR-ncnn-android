@@ -1,0 +1,201 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "libwebp",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/3rdparty/libwebp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "waifu2x-ncnn",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "WebP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "cpufeatures-webp::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-cpufeatures-webp-Debug-65a6837e2310e61fae69.json",
+					"name" : "cpufeatures-webp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libwebpmux::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-libwebpmux-Debug-e3d583f9e3e94b6a101c.json",
+					"name" : "libwebpmux",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sharpyuv::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-sharpyuv-Debug-21badc183305693d4d2c.json",
+					"name" : "sharpyuv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waifu2x-ncnn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waifu2x-ncnn-Debug-c058d9c80a7773d1043e.json",
+					"name" : "waifu2x-ncnn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webp::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webp-Debug-86727870f16fe946d1c5.json",
+					"name" : "webp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdecode-Debug-3ab7fd3336b457d1a245.json",
+					"name" : "webpdecode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdecoder::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdecoder-Debug-7ad22fc49396ac0aa91d.json",
+					"name" : "webpdecoder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdemux::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdemux-Debug-4a09a30de4796ef2c6fa.json",
+					"name" : "webpdemux",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdsp::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdsp-Debug-946aa33863ae463bfed0.json",
+					"name" : "webpdsp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpdspdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdspdecode-Debug-cc11fda67c71e48c33d4.json",
+					"name" : "webpdspdecode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webpencode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpencode-Debug-0938297a9d2b9eff16a7.json",
+					"name" : "webpencode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webputils::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webputils-Debug-e70caec1446cc3927bfc.json",
+					"name" : "webputils",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webputilsdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webputilsdecode-Debug-e815615e56e2ed3a4aa9.json",
+					"name" : "webputilsdecode",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/.cxx/Debug/161j43i2/arm64-v8a",
+		"source" : "D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Waifu2x/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

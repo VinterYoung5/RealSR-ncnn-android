@@ -1,0 +1,172 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "core/lib",
+			"paths" : 
+			[
+				"bin/libAnime4KCPPCore.a"
+			],
+			"targetId" : "Anime4KCPPCore::@57760688d1f824db5d9c",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "core/include",
+			"paths" : 
+			[
+				"core/include/AC.hpp",
+				"core/include/ACCPU.hpp",
+				"core/include/ACCreator.hpp",
+				"core/include/ACCuda.hpp",
+				"core/include/ACException.hpp",
+				"core/include/ACInitializer.hpp",
+				"core/include/ACManager.hpp",
+				"core/include/ACNCNN.hpp",
+				"core/include/ACNetType.hpp",
+				"core/include/ACOpenCL.hpp",
+				"core/include/ACProcessor.hpp",
+				"core/include/ACRegister.hpp",
+				"core/include/Anime4KCPP.hpp",
+				"core/include/Benchmark.hpp",
+				"core/include/CNN.hpp",
+				"core/include/CPUACNet.hpp",
+				"core/include/CPUACNetProcessor.hpp",
+				"core/include/CPUAnime4K09.hpp",
+				"core/include/CPUCNNProcessor.hpp",
+				"core/include/CoreInfo.hpp",
+				"core/include/CudaACNet.hpp",
+				"core/include/CudaAnime4K09.hpp",
+				"core/include/CudaInterface.hpp",
+				"core/include/FilterProcessor.hpp",
+				"core/include/NCNNACNet.hpp",
+				"core/include/NCNNACNetID.hpp",
+				"core/include/NCNNACNetModel.hpp",
+				"core/include/OpenCLACNet.hpp",
+				"core/include/OpenCLACNetKernel.hpp",
+				"core/include/OpenCLAnime4K09.hpp",
+				"core/include/OpenCLAnime4K09Kernel.hpp",
+				"core/include/Parallel.hpp",
+				"core/include/ThreadPool.hpp",
+				"core/include/VideoCodec.hpp",
+				"core/include/VideoIO.hpp",
+				"core/include/VideoIOAsync.hpp",
+				"core/include/VideoIOSerial.hpp",
+				"core/include/VideoIOThreads.hpp",
+				"core/include/VideoProcessor.hpp",
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Anime4k/.cxx/Debug/521c24n5/arm64-v8a/core/ac_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/models",
+			"paths" : 
+			[
+				{
+					"from" : "core/models",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/kernels",
+			"paths" : 
+			[
+				{
+					"from" : "core/kernels",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "core/cmake",
+			"exportName" : "Anime4KCPPCore",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Anime4KCPPCore::@57760688d1f824db5d9c",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"core/CMakeFiles/Export/core/cmake/Anime4KCPPCore.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "core/cmake",
+			"paths" : 
+			[
+				"D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Anime4k/.cxx/Debug/521c24n5/arm64-v8a/core/Anime4KCPPCoreConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core",
+		"source" : "core"
+	}
+}

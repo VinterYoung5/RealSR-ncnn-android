@@ -1,0 +1,137 @@
+ninja: Entering directory `D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\.cxx\Debug\1h3r523o\arm64-v8a'
+[1/123] Building C object libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_sse2.c.o
+[2/123] Building C object libwebp/CMakeFiles/cpufeatures-webp.dir/e3084296cc39006f83073e68202bd324/25.2.9519653/sources/android/cpufeatures/cpu-features.c.o
+[3/123] Building C object libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_cpu.c.o
+[4/123] Building C object libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_csp.c.o
+[5/123] Building C object libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_neon.c.o
+[6/123] Building C object libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv.c.o
+[7/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/buffer_dec.c.o
+[8/123] Building C object libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_gamma.c.o
+[9/123] Building C object libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_dsp.c.o
+[10/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/alpha_dec.c.o
+[11/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/frame_dec.c.o
+[12/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/idec_dec.c.o
+[13/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/quant_dec.c.o
+[14/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/tree_dec.c.o
+[15/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/io_dec.c.o
+[16/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/vp8_dec.c.o
+[17/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/webp_dec.c.o
+[18/123] Building C object libwebp/CMakeFiles/webpdecode.dir/src/dec/vp8l_dec.c.o
+[19/123] Linking C static library libwebp\libcpufeatures-webp.a
+[20/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/config_enc.c.o
+[21/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/analysis_enc.c.o
+[22/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/backward_references_enc.c.o
+[23/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/backward_references_cost_enc.c.o
+[24/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/alpha_enc.c.o
+[25/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/frame_enc.c.o
+[26/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/filter_enc.c.o
+[27/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/iterator_enc.c.o
+[28/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/cost_enc.c.o
+[29/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/histogram_enc.c.o
+[30/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/near_lossless_enc.c.o
+[31/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_sse41.c.o
+[32/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling.c.o
+[33/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/alpha_processing_sse41.c.o
+[34/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/rescaler.c.o
+[35/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv.c.o
+[36/123] Linking C static library libwebp\libsharpyuv.a
+[37/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_sse41.c.o
+[38/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/picture_csp_enc.c.o
+[39/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/picture_psnr_enc.c.o
+[40/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/picture_enc.c.o
+[41/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/picture_tools_enc.c.o
+[42/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/picture_rescale_enc.c.o
+[43/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/syntax_enc.c.o
+[44/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/predictor_enc.c.o
+[45/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/quant_enc.c.o
+[46/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/tree_enc.c.o
+[47/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/token_enc.c.o
+[48/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec.c.o
+[49/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/vp8l_enc.c.o
+[50/123] Building C object libwebp/CMakeFiles/webpencode.dir/src/enc/webp_enc.c.o
+[51/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/cpu.c.o
+[52/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/alpha_processing.c.o
+[53/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless.c.o
+[54/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_clip_tables.c.o
+[55/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/filters.c.o
+[56/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/alpha_processing_mips_dsp_r2.c.o
+[57/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/rescaler_mips32.c.o
+[58/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/filters_mips_dsp_r2.c.o
+[59/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv_mips32.c.o
+[60/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_mips_dsp_r2.c.o
+[61/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_mips32.c.o
+[62/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/filters_sse2.c.o
+[63/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv_sse41.c.o
+[64/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling_sse41.c.o
+[65/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_sse2.c.o
+[66/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_sse2.c.o
+[67/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/alpha_processing_sse2.c.o
+[68/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv_sse2.c.o
+[69/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/filters_neon.c.o
+[70/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/rescaler_sse2.c.o
+[71/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling_sse2.c.o
+[72/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/alpha_processing_neon.c.o
+[73/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_neon.c.o
+[74/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/filters_msa.c.o
+[75/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_neon.c.o
+[76/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_msa.c.o
+[77/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/rescaler_neon.c.o
+[78/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv_neon.c.o
+[79/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling_neon.c.o
+[80/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling_msa.c.o
+[81/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_msa.c.o
+[82/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/rescaler_msa.c.o
+[83/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc_mips32.c.o
+[84/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc_mips32.c.o
+[85/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/cost_mips32.c.o
+[86/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc_msa.c.o
+[87/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/cost_mips_dsp_r2.c.o
+[88/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling_mips_dsp_r2.c.o
+[89/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/cost.c.o
+[90/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv_mips_dsp_r2.c.o
+[91/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/rescaler_mips_dsp_r2.c.o
+[92/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_mips_dsp_r2.c.o
+[93/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc.c.o
+[94/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/ssim.c.o
+[95/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/cost_sse2.c.o
+[96/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc.c.o
+[97/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc_sse2.c.o
+[98/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc_sse2.c.o
+[99/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc_sse41.c.o
+[100/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/ssim_sse2.c.o
+[101/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc_sse41.c.o
+[102/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/cost_neon.c.o
+[103/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc_neon.c.o
+[104/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc_neon.c.o
+[105/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc_msa.c.o
+[106/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/color_cache_utils.c.o
+[107/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/huffman_utils.c.o
+[108/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/filters_utils.c.o
+[109/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/bit_reader_utils.c.o
+[110/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc_mips_dsp_r2.c.o
+[111/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/thread_utils.c.o
+[112/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/rescaler_utils.c.o
+[113/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/palette.c.o
+[114/123] Building C object libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc_mips_dsp_r2.c.o
+[115/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/quant_levels_dec_utils.c.o
+[116/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/random_utils.c.o
+[117/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/quant_levels_utils.c.o
+[118/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/bit_writer_utils.c.o
+[119/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/huffman_encode_utils.c.o
+[120/123] Building C object libwebp/CMakeFiles/webputils.dir/src/utils/utils.c.o
+[121/123] Linking C static library libwebp\libwebp.a
+[122/123] Building CXX object CMakeFiles/resize-ncnn.dir/main.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-s' [-Wunused-command-line-argument]
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/src/main/jni/main.cpp:347:9: warning: variable 'prepadding' set but not used [-Wunused-but-set-variable]
+    int prepadding = 0;
+        ^
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/src/main/jni/main.cpp:100:25: warning: unused function 'parse_optarg_int_array' [-Wunused-function]
+static std::vector<int> parse_optarg_int_array(const char *optarg) {
+                        ^
+In file included from D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/src/main/jni/main.cpp:124:
+D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Resize/src/main/jni/filesystem_utils.h:151:15: warning: unused function 'sanitize_filepath' [-Wunused-function]
+static path_t sanitize_filepath(const path_t& path)
+              ^
+3 warnings generated.
+[123/123] Linking CXX executable D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\build\intermediates\cxx\Debug\1h3r523o\obj\arm64-v8a\resize-ncnn

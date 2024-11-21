@@ -1,0 +1,72 @@
+ninja: Entering directory `D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\.cxx\Debug\521c24n5\arm64-v8a'
+[1/25] Building CXX object CLI/CMakeFiles/Anime4k.dir/src/Downloader.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[2/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/OpenCLAnime4K09.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[3/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/OpenCLACNet.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[4/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/ACOpenCL.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[5/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/CudaACNet.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[6/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/CudaAnime4K09.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[7/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/ACCuda.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[8/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/ACNCNN.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[9/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/CoreInfo.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[10/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/CPUCNNProcessor.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[11/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/FilterProcessor.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[12/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/CPUACNet.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[13/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/VideoIOSerial.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[14/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/NCNNACNet.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[15/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/VideoProcessor.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[16/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/CPUAnime4K09.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[17/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/CPUACNetProcessor.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[18/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/VideoIO.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[19/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/AC.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[20/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/ACCreator.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[21/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/VideoIOAsync.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[22/25] Building CXX object core/CMakeFiles/Anime4KCPPCore.dir/src/VideoIOThreads.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[23/25] Linking CXX static library bin\libAnime4KCPPCore.a
+[24/25] Building CXX object CLI/CMakeFiles/Anime4k.dir/src/main.cpp.o
+clang++: warning: -Wl,-rpath=./: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: argument unused during compilation: '-msse4' [-Wunused-command-line-argument]
+[25/25] Linking CXX executable D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\build\intermediates\cxx\Debug\521c24n5\obj\arm64-v8a\Anime4k

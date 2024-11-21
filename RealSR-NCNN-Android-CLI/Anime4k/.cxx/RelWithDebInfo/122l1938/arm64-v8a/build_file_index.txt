@@ -1,0 +1,9 @@
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\AviSynthPlus\CMakeLists.txt
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\CLI\CMakeLists.txt
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\cmake\Anime4KCPPCoreConfig.cmake.in
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\cmake\Detection.cmake
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\cmake\ThirdPartyForCLI.cmake
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\cmake\ThirdPartyForCore.cmake
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\CMakeLists.txt
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\core\CMakeLists.txt
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Anime4k\src\main\jni\CWrapper\CMakeLists.txt

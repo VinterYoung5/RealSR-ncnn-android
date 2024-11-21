@@ -1,0 +1,44 @@
+{
+  "buildFiles": [
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\AviSynthPlus\\CMakeLists.txt",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\CLI\\CMakeLists.txt",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\cmake\\Anime4KCPPCoreConfig.cmake.in",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\cmake\\Detection.cmake",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\cmake\\ThirdPartyForCLI.cmake",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\cmake\\ThirdPartyForCore.cmake",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\core\\CMakeLists.txt",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\src\\main\\jni\\CWrapper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\vinter\\8.android_studio\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\.cxx\\RelWithDebInfo\\122l1938\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\vinter\\8.android_studio\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\.cxx\\RelWithDebInfo\\122l1938\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "Anime4KCPPCore::@57760688d1f824db5d9c": {
+      "artifactName": "Anime4KCPPCore",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\.cxx\\RelWithDebInfo\\122l1938\\arm64-v8a\\bin\\libAnime4KCPPCore.a",
+      "runtimeFiles": []
+    },
+    "Anime4k::@eb403ffd800e68c9a938": {
+      "artifactName": "Anime4k",
+      "abi": "arm64-v8a",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Anime4k\\build\\intermediates\\cxx\\RelWithDebInfo\\122l1938\\obj\\arm64-v8a\\Anime4k",
+      "runtimeFiles": [
+        "D:\\vinter\\8.android_studio\\sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\14.0.7\\lib\\linux\\aarch64\\libomp.so",
+        "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\3rdparty\\ncnn-android-vulkan-shared\\arm64-v8a\\lib\\libncnn.so"
+      ]
+    }
+  }
+}

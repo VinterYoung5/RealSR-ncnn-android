@@ -1,0 +1,1 @@
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\SRMD\build\intermediates\cxx\Debug\71382r6h\obj\arm64-v8a

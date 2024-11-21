@@ -1,0 +1,2 @@
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\3rdparty\libwebp\CMakeLists.txt
+D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Resize\src\main\jni\CMakeLists.txt

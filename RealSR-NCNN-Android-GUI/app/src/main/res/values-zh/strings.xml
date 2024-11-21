@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RealSR放大图片</string>
+    <string name="default_log">
+        \n这是一个兼具人工智能和传统插值算法的图片放大的应用。
+        \n\n最初使用了Real ESRGAN和RealSR NCNN的成果实现安卓本地超分，后来又添加了SRMD NCNN和Real CUGAN NCNN，再往后又加入了传统插值缩放算法nearest/bilinear/bicubic和sinc类型插值算法avir/avir-lancir，最后更是直接加入了强大的图标处理工具ImageMagick以及Anime4kCPP，逐步成为一个算法完善的图片放大的工具。
+        \n在内置的超分模型中，本人对其中的Real ESRGAN最为推崇。Real ESRGAN所实现的放大和修复做到了一定程度上化腐朽为神奇。
+
+        \n\n与借助云计算的商业服务相比，图片处理过程完全在本地运行，处理耗时取决于图片大小以及设备的性能；但正因此，使用本应用可以进行可靠稳定的运算，并且没有被收集隐私的隐忧。
+
+        \n项目地址：https://github.com/tumuyan/RealSR-NCNN-Android
+        \n常见错误：https://note.youdao.com/s/3xv6h5iv
+        \n模型和算法的说明：https://note.youdao.com/s/6XlIFbWt
+        \n添加更多模型: https://note.youdao.com/s/XEv68sBU (包含waifu2x realsr real-esrgan模型，欢迎在酷安、github或者这篇笔记的评论区讨论这些额外的模型)
+        \n爱发电打赏: https://afdian.net/a/tumuyan
+
+        \n\n\n本应用除使用下拉选项中的预设参数外，还支持在输入框内输入命令。
+        \n一、调用超分辨率程序
+        \n./realsr-ncnn或./srmd-ncnn或./realcugan-ncnn -i 输入的图片路径 -o 输出的图片路径 [其他可选参数]…
+        \n主要参数有：\n
+        -i 输入的图片路径（jpg/png/webp文件路径或者目录路径）\n
+        -o 输出的图片路径（jpg/png/webp文件路径或者目录路径）\n
+        -m 模型所在目录的路径\n
+        -x 开启tta模式\n
+         \n其中srmd-ncnn额外支持：\n
+        -n 降噪等级，可选(-1/0/1/2/3/4/5/6/7/8/9/10, default=3)\n
+        -s 放大倍数，可选(2/3/4, default=2)\n
+         \n其中realcugan-ncnn额外支持：\n
+        -n 降噪等级，可选(default=-1，2xse模型支持-1/0/1/2/3, 3x和4xse模型支持-1/0/3)\n
+        -s 放大倍数，可选(2/3/4, default=2)\n
+        -c sync gap mode，可选(0/1/2/3, default=3)\n
+
+        \n\n二、调用经典插值算法
+        \n./resize-ncnn -i 输入的图片路径 -o 输出的图片路径 [其他可选参数]...
+        \n主要参数有：\n
+        -i 输入的图片路径（jpg/png/webp文件路径或者目录路径）\n
+        -o 输出的图片路径（jpg/png/webp文件路径或者目录路径）\n
+        -m 插值算法（nearest/bilinear/bicubic/avir/avir-lancir/de-nearest）\n
+        -n 不使用ncnn来完成nearest和bilinear插值，得到点对点放大的结果（但是bilinear的输出结果会与s参数略有差异）\n
+        -s 放大倍数，不带-n时可以使用小数(default=4)\n
+
+        \n\n三、图片处理工具ImageMagick
+        \n./magick 输入图片路径 -filter 算法 -resize 宽x高 输出图片路径
+        \n./magick 输入图片路径 -filter 算法 -resize n% 输出图片路径
+        \n算法包含但不限于不限于Box Cubic Hamming Jinc Lanczos Lagrange Mitchell Sinc，可以通过命令./magick -list filter查看支持的全部算法。也可以参阅说明 https://legacy.imagemagick.org/Usage/filter
+        \nImageMagick的功能非常强大，示例命令仅仅是缩放图片的调用。
+
+        \n\n四、Anime4K
+        \n本应用内置了Anime4KCPP https://github.com/TianZerL/Anime4KCPP
+        \n这个项目包含了Anime4K 0.9 算法（也就是说并非最新版）以及 ACNet （一个基于卷积神经网络的超分辨率算法）
+        \n它所支持的参数详见说明 https://github.com/TianZerL/Anime4KCPP/wiki/CLI
+
+        \n\n五、显示指定信息
+        \n in 显示输入的图像
+        \n out 显示输出的图像
+        \n show （跟随图像的路径作为参数）显示指定路径的图像
+        \n help 显示帮助信息
+
+        \n\n六、调用shell命令
+        \n 如ls head cp rm等等
+        </string>
+    <string name="input_command">输入shell命令,如 ./realsr-ncnn -i input.png -o output.png</string>
+    <string name="open">选图</string>
+    <string name="save">导出</string>
+    <string name="run">运行</string>
+    <string name="setting">设置</string>
+    <string name="done">完成</string>
+    <string name="busy">在忙</string>
+    <string name="default_select_command">默认选中哪个预设命令</string>
+    <string name="tile_size">预设命令的Tile Size参数</string>
+    <string name="default_command">在输入框中预设命令</string>
+    <string name="save_setting">保存设置</string>
+
+    <string name="lr">当前显示处理前的图像</string>
+    <string name="hr">当前显示处理后的图像</string>
+    <string name="show">显示图像</string>
+
+    <string name="save_succeed">保存成功</string>
+    <string name="save_fail">保存失败</string>
+    <string name="threadCount">预设命令的加载/处理/保存的线程数（其实没什么卵用）</string>
+    <string name="reset">重置为默认配置</string>
+    <string name="reset_low">重置为低配参数</string>
+
+    <string name="thread_count_err">不符合“数字:数字:数字”的格式</string>
+    <string name="keep_screen">工作时保持屏幕常亮</string>
+    <string name="extra_command">在命令列表中添加命令</string>
+    <string name="partners_for_preset_command">超分辨率算法的附加参数</string>
+    <string name="custom_command">自定义命令</string>
+    <string name="use_cpu">尝试使用CPU完成运算(CPU和GPU哪个更稳定是不确定的，但是CPU运算一定更慢)</string>
+    <string name="save_format">导出时使用的格式</string>
+    <string name="general">通用</string>
+    <string name="output_not_exits">错误：没有待导出的文件</string>
+    <string name="image_not_exists">图片不存在</string>
+    <string name="preprocess_to_png">预处理webp/png/jpg/bmp以外的图片为png</string>
+    <string name="extra_path">自定义模型的路径(RealSR/ESRGAN/Waifu2x)</string>
+    <string name="path_not_exist">不存在此目录</string>
+    <string name="path_not_dir">此路径为一个文件，而不是目录</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_out">显示处理后的图片</string>
+    <string name="menu_in">显示处理前的图片</string>
+    <string name="menu_nearest4">Nearest放大4倍</string>
+    <string name="menu_de_nearest">DeNearest缩小</string>
+    <string name="menu_magick4">Magick缩小到1/4</string>
+    <string name="menu_magick3">Magick缩小到1/3</string>
+    <string name="menu_magick2">Magick缩小到1/2</string>
+    <string name="menu_avir2">Avir缩小到1/2</string>
+    <string name="menu_share">分享处理后的图片</string>
+    <string name="share_is_null">没有收到分享的文件</string>
+    <string name="auto_save">处理结束后自动导出到相册</string>
+    <string name="show_serarch_view">显示命令输入框</string>
+    <string name="save_name">导出单图使用的文件名</string>
+    <string name="save_name2">导出多图使用的文件名</string>
+    <string name="save_path">导出图片的路径</string>
+    <string name="download_models">下载模型</string>
+    <string name="start">开始</string>
+    <string name="image_is_directory">输入的是一个目录</string>
+    <string name="output_is_dir">跳过：无需导出</string>
+    <string name="input_file_size">选择了%d个文件</string>
+    <string name="orientation">屏幕方向</string>
+    <string name="error">错误</string>
+    <string name="use_notification">发送通知栏消息</string>
+    <string name="menu_bench_mark">基准测试</string>
+    <string name="model">设备型号</string>
+    <string name="system_version">安卓版本</string>
+    <string name="cpu_model">处理器</string>
+    <string name="ram_size">设备运存</string>
+    <string name="temperature">温度</string>
+    <string name="magick_filters">Magick内置算法</string>
+    <string name="classical_interpolation">经典插值算法</string>
+    <string name="interpolation">插值算法</string>
+    <string name="menu_reset_cache">重置缓存</string>
+    <!--
+        <string-array name="style_array">
+            <item>real-esrgan-4倍动漫模型</item>
+            <item>real-esrgan-4倍通用模型</item>
+            <item>real–esrganv2–2倍动漫模型</item>
+            <item>real–esrganv2–4倍动漫模型（v2速度快，质量低）</item>
+            <item>realsr-df2k-jpeg-4倍通用降噪模型</item>
+            <item>realsr-df2k-四倍模型</item>
+            <item>srmd-x4</item>
+            <item>srmd-x3</item>
+            <item>srmd-x2</item>
+            <item>real-cugan-2倍数动漫模型-不降噪</item>
+            <item>real-cugan-2倍数动漫模型-保守</item>
+            <item>real-cugan-2倍数动漫模型-降噪0</item>
+            <item>real-cugan-2倍数动漫模型-降噪1</item>
+            <item>real-cugan-2倍数动漫模型-降噪2</item>
+            <item>real-cugan-2倍数动漫模型-降噪3</item>
+            <item>real-cugan-x4-conservative</item>
+            <item>real-cugan-x4-noise0</item>
+            <item>real-cugan-x4-noise3</item>
+            <item>Anime4k-x2</item>
+            <item>Anime4k-x2-预处理-高斯模糊+双边滤镜</item>
+            <item>Anime4k-x2-后处理-高斯模糊+双边滤镜</item>
+            <item>Anime4k-x2-ACNet</item>
+            <item>Anime4k-x2-ACNet-HDN</item>
+            <item>Anime4k-x4</item>
+            <item>Anime4k-x4-预处理-高斯模糊弱+双边滤镜</item>
+            <item>Anime4k-x4-后处理-高斯模糊弱+双边滤镜</item>
+            <item>Anime4k-x2-ACNet</item>
+            <item>Anime4k-x2-ACNet-HDN</item>
+        </string-array>-->
+    <string-array name="name">
+        <item>算法-时间</item>
+        <item>原文件名-算法-时间</item>
+        <item>原文件名-算法</item>
+        <item>原文件名-时间</item>
+        <item>原文件名</item>
+    </string-array>
+    <string-array name="name2">
+        <item>原文件名-选择文件时间</item>
+        <item>原文件名-序号</item>
+        <item>选择文件时间-序号</item>
+        <item>选择文件时间-原文件名</item>
+    </string-array>
+    <string-array name="oriental_item">
+        <item>默认</item>
+        <item>自动</item>
+        <item>竖屏</item>
+        <item>横屏</item>
+    </string-array>
+    <string-array name="notify_item">
+        <item>无</item>
+        <item>通知</item>
+        <item>结束时通知</item>
+    </string-array>
+</resources>

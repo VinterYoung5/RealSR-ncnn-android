@@ -1,0 +1,7 @@
+com.tumuyan.ncnn.realsr.SRMD-pngs-0 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\SRMD\build\generated\res\pngs\debug
+com.tumuyan.ncnn.realsr.SRMD-resValues-1 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\SRMD\build\generated\res\resValues\debug
+com.tumuyan.ncnn.realsr.SRMD-mergeDebugResources-2 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\SRMD\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.tumuyan.ncnn.realsr.SRMD-mergeDebugResources-3 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\SRMD\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.tumuyan.ncnn.realsr.SRMD-debug-4 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\SRMD\build\intermediates\merged_res\debug\mergeDebugResources
+com.tumuyan.ncnn.realsr.SRMD-debug-5 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\SRMD\src\debug\res
+com.tumuyan.ncnn.realsr.SRMD-main-6 D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\SRMD\src\main\res

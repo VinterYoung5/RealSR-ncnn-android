@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="D:\vinter\3.git\realsr-ncnn-android\RealSR-NCNN-Android\RealSR-NCNN-Android-CLI\Waifu2x"
+    name=":Waifu2x"
+    type="APP"
+    maven="RealSR-NCNN-Android-CLI:Waifu2x:"
+    agpVersion="8.3.2"
+    buildFolder="build"
+    bootClassPath="D:\vinter\8.android_studio\sdk\platforms\android-34\android.jar;D:\vinter\8.android_studio\sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

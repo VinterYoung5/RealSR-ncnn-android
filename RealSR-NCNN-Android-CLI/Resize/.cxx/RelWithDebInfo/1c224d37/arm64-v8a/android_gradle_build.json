@@ -1,0 +1,109 @@
+{
+  "buildFiles": [
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\3rdparty\\libwebp\\CMakeLists.txt",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\vinter\\8.android_studio\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\.cxx\\RelWithDebInfo\\1c224d37\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\vinter\\8.android_studio\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\.cxx\\RelWithDebInfo\\1c224d37\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "cpufeatures-webp::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "cpufeatures-webp",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\.cxx\\RelWithDebInfo\\1c224d37\\arm64-v8a\\libwebp\\libcpufeatures-webp.a"
+    },
+    "libwebpmux::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "libwebpmux",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\.cxx\\RelWithDebInfo\\1c224d37\\arm64-v8a\\libwebp\\libwebpmux.a"
+    },
+    "resize-ncnn::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "resize-ncnn",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\build\\intermediates\\cxx\\RelWithDebInfo\\1c224d37\\obj\\arm64-v8a\\resize-ncnn",
+      "runtimeFiles": [
+        "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\3rdparty\\ncnn-android-vulkan-shared\\arm64-v8a\\lib\\libncnn.so"
+      ]
+    },
+    "sharpyuv::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "sharpyuv",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\.cxx\\RelWithDebInfo\\1c224d37\\arm64-v8a\\libwebp\\libsharpyuv.a"
+    },
+    "webp::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webp",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\.cxx\\RelWithDebInfo\\1c224d37\\arm64-v8a\\libwebp\\libwebp.a"
+    },
+    "webpdecode::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webpdecode"
+    },
+    "webpdecoder::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webpdecoder",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\.cxx\\RelWithDebInfo\\1c224d37\\arm64-v8a\\libwebp\\libwebpdecoder.a"
+    },
+    "webpdemux::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webpdemux",
+      "output": "D:\\vinter\\3.git\\realsr-ncnn-android\\RealSR-NCNN-Android\\RealSR-NCNN-Android-CLI\\Resize\\.cxx\\RelWithDebInfo\\1c224d37\\arm64-v8a\\libwebp\\libwebpdemux.a"
+    },
+    "webpdsp::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webpdsp"
+    },
+    "webpdspdecode::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webpdspdecode"
+    },
+    "webpencode::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webpencode"
+    },
+    "webputils::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webputils"
+    },
+    "webputilsdecode::@91ecdd311bb4d766aad5": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "webputilsdecode"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "D:\\vinter\\8.android_studio\\sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\vinter\\8.android_studio\\sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

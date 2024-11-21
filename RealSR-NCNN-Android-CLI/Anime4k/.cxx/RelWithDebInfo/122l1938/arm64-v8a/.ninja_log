@@ -1,0 +1,26 @@
+# ninja log v5
+95	995	7532690378415533	core/CMakeFiles/Anime4KCPPCore.dir/src/ACCuda.cpp.o	cbeefc01821d048b
+445	1051	7532690377976061	core/CMakeFiles/Anime4KCPPCore.dir/src/OpenCLACNet.cpp.o	1ab62112f54ec9ee
+506	1094	7532690378757331	core/CMakeFiles/Anime4KCPPCore.dir/src/CudaAnime4K09.cpp.o	9772fd5225673ae5
+536	1136	7532690378708525	core/CMakeFiles/Anime4KCPPCore.dir/src/CudaACNet.cpp.o	445cce0d87850b5a
+353	1179	7532690377526816	core/CMakeFiles/Anime4KCPPCore.dir/src/ACOpenCL.cpp.o	cb107edf31fa4d52
+476	1223	7532690377878392	core/CMakeFiles/Anime4KCPPCore.dir/src/CoreInfo.cpp.o	1b397530c26e2b16
+255	1224	7532690378103017	core/CMakeFiles/Anime4KCPPCore.dir/src/OpenCLAnime4K09.cpp.o	bb8ea63e6a0e6e3c
+1	1225	7532690379157757	CLI/CMakeFiles/Anime4k.dir/src/Downloader.cpp.o	55b60a362a2d8382
+1095	1457	7532690384115871	core/CMakeFiles/Anime4KCPPCore.dir/src/VideoProcessor.cpp.o	12c781d9c1d3af83
+998	1464	7532690383891260	core/CMakeFiles/Anime4KCPPCore.dir/src/VideoIOSerial.cpp.o	acf85ebd1a36cb6f
+1051	1485	7532690383979156	core/CMakeFiles/Anime4KCPPCore.dir/src/VideoIO.cpp.o	bd7527f7ac4c5ee9
+1136	1489	7532690384057283	core/CMakeFiles/Anime4KCPPCore.dir/src/VideoIOAsync.cpp.o	6d2ea1099918cc64
+1180	1490	7532690384057283	core/CMakeFiles/Anime4KCPPCore.dir/src/VideoIOThreads.cpp.o	702c757d6752cfde
+156	3174	7532690402051956	core/CMakeFiles/Anime4KCPPCore.dir/src/ACCreator.cpp.o	7a6cd5919cba3886
+287	3558	7532690405811873	core/CMakeFiles/Anime4KCPPCore.dir/src/CPUACNetProcessor.cpp.o	dea519932d79986e
+125	3587	7532690406075565	core/CMakeFiles/Anime4KCPPCore.dir/src/ACNCNN.cpp.o	59bf86b779fbc6df
+319	3630	7532690406632222	core/CMakeFiles/Anime4KCPPCore.dir/src/CPUACNet.cpp.o	7ecce60d8ae7a2f0
+223	3713	7532690407423549	core/CMakeFiles/Anime4KCPPCore.dir/src/CPUCNNProcessor.cpp.o	fae360d7505101a5
+63	3828	7532690408575638	core/CMakeFiles/Anime4KCPPCore.dir/src/AC.cpp.o	f36747886afd88f5
+414	3850	7532690408780735	core/CMakeFiles/Anime4KCPPCore.dir/src/FilterProcessor.cpp.o	bf7f213017db36e9
+384	4042	7532690410763235	core/CMakeFiles/Anime4KCPPCore.dir/src/NCNNACNet.cpp.o	5912cc162b2d5a9f
+189	4152	7532690411877953	core/CMakeFiles/Anime4KCPPCore.dir/src/CPUAnime4K09.cpp.o	c68b3634e3f2acab
+4152	4356	7532690413634144	bin/libAnime4KCPPCore.a	7ec946158eacd14c
+33	8102	7532690451229500	CLI/CMakeFiles/Anime4k.dir/src/main.cpp.o	167a80c8d51fa798
+8102	8505	7532690454077918	D:/vinter/3.git/realsr-ncnn-android/RealSR-NCNN-Android/RealSR-NCNN-Android-CLI/Anime4k/build/intermediates/cxx/RelWithDebInfo/122l1938/obj/arm64-v8a/Anime4k	109b394eb1e51ca8
